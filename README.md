@@ -1,1 +1,1 @@
-# example-wordpress-rest-api
+# Example WordPress REST API
