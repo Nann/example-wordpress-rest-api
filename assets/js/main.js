@@ -4,6 +4,8 @@ function receiveData( data ) {
 
 	Object.keys( data ).forEach( function( key ) {
 
+		console.log ( data[key]);
+
 		var ourHTMLString = '';
 	  for (i = 0; i < data.length; i++) {
 	    ourHTMLString += "<h1 class='post-title id-" + data[i].id + "'>" + data[i].title.rendered + "</h1>";
